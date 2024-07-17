@@ -5,19 +5,19 @@
 		"bonus": [{
 			"name": "舰长3天",
 			"weight": "500",
-			"price": "198"
+			"price": "168"
 		}, {
 			"name": "舰长5天",
 			"weight": "2500",
-			"price": "330"
+			"price": "280"
 		}, {
 			"name": "舰长8天",
 			"weight": "5305",
-			"price": "528"
+			"price": "448"
 		}, {
 			"name": "舰长15天",
 			"weight": "1600",
-			"price": "990"
+			"price": "840"
 		}, {
 			"name": "提督3天",
 			"weight": "45",

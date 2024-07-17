@@ -22,13 +22,14 @@ def random_get_box(blind_box_name: str, blind_box_count: int):
     elements = [i for i in range(len(cur_blind_box["bonus"]))]
 
     samples = np.random.choice(elements, size=blind_box_count, p=np.array(weights) / np.sum(weights))
-    _, counts = np.unique(samples, return_counts=True)
-    for i in range(len(counts)):
-        count = int(counts[i])
-        price = count * float(cur_blind_box["bonus"][i]["price"])
+    unique, counts = np.unique(samples, return_counts=True)
+    result = dict(zip(unique, counts))
+    for idx in unique:
+        count = result[idx]
+        price = count * float(cur_blind_box["bonus"][idx]["price"])
         earn_price += price
         bonus_info["gift"].append({
-            "name": cur_blind_box["bonus"][i]["name"],
+            "name": cur_blind_box["bonus"][idx]["name"],
             "count": count,
             "price": round(price, 2)
         })
