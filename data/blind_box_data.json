@@ -252,23 +252,31 @@
 		}, {
 			"name": "Fighting975",
 			"weight": "8000",
-			"price": "1800"
+			"price": "1050"
 		}, {
 			"name": "黑丝takina",
 			"weight": "4000",
-			"price": "1500"
+			"price": "1100"
+		}, {
+			"name": "龙套",
+			"weight": "3000",
+			"price": "1800"
 		}, {
 			"name": "白丝takina",
 			"weight": "2000",
-			"price": "3000"
+			"price": "2500"
 		}, {
 			"name": "黑丝零点",
 			"weight": "50",
 			"price": "10000"
 		}, {
+			"name": "SSR臭臭Sagi",
+			"weight": "2",
+			"price": "114514"
+		}, {
 			"name": "SSR星河姐姐",
 			"weight": "1",
-			"price": "80000"
+			"price": "520000"
 		}]
 	}
 }
