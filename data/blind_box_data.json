@@ -235,7 +235,7 @@
 		"unit": "憨憨币",
 		"bonus": [ {
 			"name": "女装兔子",
-			"weight": "12000",
+			"weight": "4000",
 			"price": "150"
 		}, {
 			"name": "黑黏黏",
@@ -243,8 +243,8 @@
 			"price": "260"
 		},{
 			"name": "Sagi",
-			"weight": "4000",
-			"price": "1000"
+			"weight": "18000",
+			"price": "1010"
 		}, {
 			"name": "黑丝takina",
 			"weight": "2000",
