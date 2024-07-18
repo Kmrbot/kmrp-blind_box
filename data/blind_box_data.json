@@ -233,7 +233,7 @@
 	"sagi村盲盒": {
 		"price": "1000",
 		"unit": "憨憨币",
-		"bonus": [ {
+		"bonus": [{
 			"name": "女装兔子",
 			"weight": "4000",
 			"price": "150"
@@ -241,26 +241,34 @@
 			"name": "黑黏黏",
 			"weight": "7000",
 			"price": "260"
-		},{
+		}, {
+			"name": "香香G",
+			"weight": "6000",
+			"price": "510"
+		}, {
 			"name": "Sagi",
-			"weight": "18000",
+			"weight": "36000",
 			"price": "1010"
 		}, {
+			"name": "Fighting975",
+			"weight": "8000",
+			"price": "1800"
+		}, {
 			"name": "黑丝takina",
-			"weight": "2000",
+			"weight": "4000",
 			"price": "1500"
 		}, {
 			"name": "白丝takina",
-			"weight": "1000",
+			"weight": "2000",
 			"price": "3000"
 		}, {
 			"name": "黑丝零点",
 			"weight": "50",
 			"price": "10000"
 		}, {
-			"name": "星河姐姐",
+			"name": "SSR星河姐姐",
 			"weight": "1",
-			"price": "50000"
+			"price": "80000"
 		}]
 	}
 }
