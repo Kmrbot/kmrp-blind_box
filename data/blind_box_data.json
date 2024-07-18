@@ -235,16 +235,20 @@
 		"unit": "憨憨币",
 		"bonus": [{
 			"name": "女装兔子",
-			"weight": "8000",
+			"weight": "4000",
 			"price": "150"
 		}, {
 			"name": "黑黏黏",
-			"weight": "14000",
+			"weight": "8000",
 			"price": "260"
 		}, {
 			"name": "香香G",
-			"weight": "12000",
+			"weight": "10000",
 			"price": "510"
+		},{
+			"name": "PP鉴赏家666",
+			"weight": "8400",
+			"price": "666"
 		}, {
 			"name": "Sagi",
 			"weight": "36000",
@@ -255,17 +259,21 @@
 			"price": "1050"
 		}, {
 			"name": "黑丝takina",
-			"weight": "4000",
+			"weight": "6000",
 			"price": "1100"
 		}, {
 			"name": "龙套",
-			"weight": "3000",
+			"weight": "5000",
 			"price": "1800"
 		}, {
 			"name": "白丝takina",
-			"weight": "2000",
+			"weight": "4000",
 			"price": "2500"
-		}, {
+		},, {
+			"name": "女装土子屋",
+			"weight": "800",
+			"price": "7500"
+		} {
 			"name": "黑丝零点",
 			"weight": "50",
 			"price": "10000"
