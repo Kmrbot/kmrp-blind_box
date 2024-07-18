@@ -5,19 +5,19 @@
 		"bonus": [{
 			"name": "舰长3天",
 			"weight": "500",
-			"price": "168"
+			"price": "198"
 		}, {
 			"name": "舰长5天",
 			"weight": "2500",
-			"price": "280"
+			"price": "330"
 		}, {
 			"name": "舰长8天",
 			"weight": "5305",
-			"price": "448"
+			"price": "528"
 		}, {
 			"name": "舰长15天",
 			"weight": "1600",
-			"price": "840"
+			"price": "990"
 		}, {
 			"name": "提督3天",
 			"weight": "45",
@@ -165,7 +165,7 @@
 		}]
 	},
 	"至尊盲盒": {
-		"price": "1000",
+		"price": "500",
 		"unit": "电池",
 		"bonus": [{
 			"name": "璀璨钻石",
@@ -228,6 +228,35 @@
 			"name": "歌王在世",
 			"weight": "25",
 			"price": "600"
+		}]
+	},
+	"sagi村盲盒": {
+		"price": "1000",
+		"unit": "憨憨币",
+		"bonus": [{
+			"name": "Sagi",
+			"weight": "25000",
+			"price": "1"
+		}, {
+			"name": "黑黏黏",
+			"weight": "15000",
+			"price": "150"
+		}, {
+			"name": "黑丝takina",
+			"weight": "4000",
+			"price": "500"
+		}, {
+			"name": "白丝takina",
+			"weight": "2000",
+			"price": "1000"
+		}, {
+			"name": "黑丝零点",
+			"weight": "100",
+			"price": "10000"
+		}, {
+			"name": "星河姐姐",
+			"weight": "1",
+			"price": "50000"
 		}]
 	}
 }
