@@ -29,10 +29,11 @@ async def _(
             blind_box_count = 1
         else:
             blind_box_count = int(params[1])
+    # 正则仅匹配数字，所以不会出现小数和负数
     except ValueError:
         return await query_blind_box.finish(ProtocolAdapter.MS.reply(event) + ProtocolAdapter.MS.text("抽取次数未输入或输入错误！"))
-    if blind_box_count < 0:
-        return await query_blind_box.finish(ProtocolAdapter.MS.reply(event) + ProtocolAdapter.MS.text("抽取次数不能为负！"))
+    if blind_box_count == 0:
+        return await query_blind_box.finish(ProtocolAdapter.MS.reply(event) + ProtocolAdapter.MS.text("抽取次数不能为0！"))
     if blind_box_count > 10000000:
         return await query_blind_box.finish(ProtocolAdapter.MS.reply(event) + ProtocolAdapter.MS.text("抽取次数过多！"))
     bonus_info = data.random_get_box(blind_box_name + "盲盒", blind_box_count)
@@ -47,4 +48,4 @@ async def _(
     msg += ProtocolAdapter.MS.text(f"\n本次盲盒总计抽得价值{bonus_info['price']['earn']}{bonus_info['price']['unit']}的道具，"
                                    f"{'净赚' if bonus_info['price']['win'] >= 0 else '亏损'}"
                                    f"{abs(bonus_info['price']['win'])}{bonus_info['price']['unit']}\n")
-    await query_blind_box.finish(msg)
+    return await query_blind_box.finish(msg)
