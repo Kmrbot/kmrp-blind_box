@@ -1,10 +1,20 @@
 import json
-import os.path
+from pathlib import Path
+
 import numpy as np
+
+from utils.config import ensure_plugin_config_from_template
+
+__TEMPLATE_PATH = Path(__file__).with_name("blind_box_data_template.json")
 
 
 def load_blind_box_data():
-    with open(os.path.join(os.path.dirname(os.path.realpath(__file__)), "blind_box_data.json"), encoding="utf-8") as f:
+    path = ensure_plugin_config_from_template(
+        "kmrp-blind_box",
+        "blind_box_data.json",
+        __TEMPLATE_PATH,
+    )
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
